@@ -1,4 +1,6 @@
 # 1000 Characters
+playstore link: https://play.google.com/store/apps/details?id=com.classic.character1000<br>
+
 
 ## v1.0.0<br>
 07/04/2024<br>
