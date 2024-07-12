@@ -126,7 +126,7 @@ fun DataSourceScreen(
                 .clickable(
                     onClick = {
                         val openURL = Intent(Intent.ACTION_VIEW)
-                        openURL.data = Uri.parse("https://dict.youdao.com/jsonapi?q=%E5%8D%83&le=ko")
+                        openURL.data = Uri.parse("https://dict.youdao.com   /jsonapi?q=%E5%8D%83&le=ko")
                         context.startActivity(openURL)
                     }
                 )

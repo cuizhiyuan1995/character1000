@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -36,8 +37,29 @@ fun VersionScreen(
                     .padding(padding)
                 //.fillMaxWidth()
             ) {
+                Text(text = "v1.0.1", fontSize = fontsize)
+                Text(text = "07/11/2024", fontSize = fontsize)
+                Text(text = "Feature", fontSize = fontsize)
+                Text(text = "Add support for Android 11", fontSize = fontsize, color = Color.Gray)
+            }
+        }
+        //end of version block
+
+        HorizontalDivider(thickness = 4.dp, color = Color.LightGray)
+
+        //version block
+        Column(
+            Modifier
+                .background(color = Color.White)
+                .fillMaxWidth()
+        ) {
+            Column(
+                Modifier
+                    .padding(padding)
+                //.fillMaxWidth()
+            ) {
                 Text(text = "v1.0.0", fontSize = fontsize)
-                Text(text = "07/02/2024", fontSize = fontsize)
+                Text(text = "07/04/2024", fontSize = fontsize)
                 Text(text = "Feature", fontSize = fontsize)
                 Text(text = "first version", fontSize = fontsize)
                 Text(text = "HomeScreen shows all the characters", fontSize = fontsize, color = Color.Gray)
