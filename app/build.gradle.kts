@@ -11,13 +11,13 @@ android {
     compileSdk = 34
 
     val versionMajor = 1
-    val versionMinor = 0
-    val versionPatch = 1
+    val versionMinor = 1
+    val versionPatch = 0
 
     defaultConfig {
         applicationId = "com.classic.character1000"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = versionMajor * 10000 + versionMinor * 100 + versionPatch
         versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
 

@@ -25,7 +25,26 @@ fun VersionScreen(
             .fillMaxHeight()
             .background(color = Color.LightGray)
     ) {
+        //version block
+        Column(
+            Modifier
+                .background(color = Color.White)
+                .fillMaxWidth()
+        ) {
+            Column(
+                Modifier
+                    .padding(padding)
+                //.fillMaxWidth()
+            ) {
+                Text(text = "v1.1.0", fontSize = fontsize)
+                Text(text = "08/24/2025", fontSize = fontsize)
+                Text(text = "New Feature", fontSize = fontsize)
+                Text(text = "Update Target API version", fontSize = fontsize, color = Color.Gray)
+            }
+        }
+        //end of version block
 
+        HorizontalDivider(thickness = 4.dp, color = Color.LightGray)
 
         //version block
         Column(
@@ -54,6 +73,8 @@ fun VersionScreen(
                 .background(color = Color.White)
                 .fillMaxWidth()
         ) {
+
+
             Column(
                 Modifier
                     .padding(padding)
